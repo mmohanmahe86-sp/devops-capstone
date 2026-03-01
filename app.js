@@ -1,0 +1,7 @@
+const http = require('http');
+
+http.createServer((req,res)=>{
+res.write("DevOps Capstone Project Running!");
+res.end();
+}).listen(3000);
+
